@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+body {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation {
+  position: fixed;
+  height: 940px;
+  width: 150px;
+  padding: 20px;
+  margin-top: 0px;
+  border: none;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 5px 5px 20px #ac9c87;
+  background-image: linear-gradient(to top, #852028 0%, #db3d44 100%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.iconSide {
+  display: block;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+li {
+  list-style: none;
+  margin-bottom: 50px;
+  color: rgb(241, 229, 212);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+li:link {
+  text-decoration: none;
+}
+
+li:visited {
+  text-decoration: none;
+}
+
+li:hover {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 300px;
+  margin-top: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+.lanaAvatar {
+  margin-right: 20px;
+}
+
+.homeCard {
+  margin-top: -30px;
+  display: inline-flex;
+  flex-direction: row;
+  margin-left: 300px;
 }

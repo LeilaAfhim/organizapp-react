@@ -1,0 +1,117 @@
+.card {
+  border: none;
+  border-radius: 10px;
+
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
+}
+
+h3 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.tasks {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+
+  text-align: left;
+  margin: 10px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+}
+
+.options {
+  margin-top: 0px;
+  margin-left: 145px;
+  margin-bottom: 0px;
+}
+
+.scrollbar {
+  margin-top: 80px;
+
+  background-color: #67678b;
+  margin-left: 20px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.chatAvatar {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.chatBox {
+  height: 300px;
+  width: 360px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 0px;
+
+  padding-top: 10px;
+  padding-left: 10px;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.typeMessage {
+  width: 350px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-top: 10px;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-image: linear-gradient(
+    to top,
+    #1e3c72 0%,
+    #1e3c72 1%,
+    #2a5298 100%
+  );
+}
+
+.send {
+  background: #db3d44;
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  width: 80px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-top: 10px;
+  color: white;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
