@@ -10,8 +10,10 @@ import Options from "./images/options.svg";
 
 export default function MyTasks(){
     return(
+
+ <div>      
 <Scrollbar className="scrollbar" style={{ width: 400, height: 550 }}>
-    <div>
+    
         <button className="card">
              
   <h4>MY TASKS OF THE DAY</h4>
@@ -54,9 +56,9 @@ export default function MyTasks(){
 
 
   </button>
-  </div>
+ 
 </Scrollbar>
-
+ </div>
     );
 }
 

@@ -2,17 +2,17 @@
   width: 380px;
 
   border: none;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   color: black;
 
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: left;
   margin-bottom: 0px;
   box-shadow: 5px 5px 5px #ac9c87;
   background-image: linear-gradient(to top, #c0bed4 0%, #d8d2e6 100%);
-  margin-left: 1180px;
+  margin-left: 1400px;
 }
 
 .Member {

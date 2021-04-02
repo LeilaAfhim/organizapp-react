@@ -1,0 +1,116 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.Chat {
+  margin-left: 880px;
+  margin-top: -40px;
+}
+
+.PaintingTasks {
+  display: inline;
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.Description {
+  margin-left: 120px;
+  margin-top: -100px;
+}
+
+.Check {
+  margin: 0;
+  display: block;
+  text-align: left;
+}
+
+.Task1 {
+  background: none;
+  margin: 0;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.Reference {
+  margin-top: 0px;
+}
+
+.MyTasks {
+  display: block;
+  margin: auto;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(241, 229, 212);
+  padding: 10px;
+  background-color: #db3d44;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #ac9c87;
+  margin-top: 10px;
+}
+
+.scrollbarPaintingTask {
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #67678b;
+  margin-left: 300px;
+}
+
+.optionTasksPainting {
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.Dropdown {
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+.DropName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  background-color: #eca714;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px #ac9c87;
+  margin-left: 50px;
+}
+
+.Filter {
+  margin-bottom: -32px;
+}
+
+.MyFilterSaved {
+  background-color: #eca714;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  text-align: left;
+}
+
+.MyFilterSaved:link {
+  text-decoration: none;
+  color: white;
+}
+
+.MyFilterSaved:visited {
+  text-decoration: none;
+  color: white;
+}
