@@ -33,26 +33,8 @@ return(
 <div>
  <Member/>
  
-<h1>STATISTICS</h1>
+<h1 className="StatTitle">STATISTICS</h1>
 
-<div className="optionTasksPainting">
-   <Avatar className="Filter" name="Filter" src={Filter}size="30px"/> 
- <input className="SearchInput"
-        type="text"
-        placeholder="Search"/>
-   <Dropdown className="Dropdown">
-  <Dropdown.Toggle className="DropName" variant="success" id="dropdown-basic">
-    MY FILTER
-  </Dropdown.Toggle>
-
-  <Dropdown.Menu >
-      <button className="MyFilterSaved">
-    <Dropdown.Item href="#/action-1">YC-REL1</Dropdown.Item><br/>
-    <Dropdown.Item href="#/action-2">PAS-POR</Dropdown.Item><br/>
-    </button>
-  </Dropdown.Menu>
-</Dropdown>
-</div>
 
 
 <div>
@@ -128,7 +110,42 @@ return(
     <h2 className="Name">YOUNG CHILD</h2><h6 className="TaskOverview">Task Overview - March 21</h6>
 </div>     
 
+<div className="VTButton">     
+<button className="YC">YOUNG CHILD</button>
+<button className="Cat">TEENAGER</button>
+<button className="Cat">PASSIONATE</button>
+<button className="Cat">BLIND PERSON</button>
+</div>
+    </button>
+</div>
 
+
+
+<div>
+    <button className="CardScriptTourStat">
+   
+  <h3 className="CardTitleVT">SCRIPT TOUR</h3>
+<Avatar className="FilterVT" name="Filter" src={Filter}size="30px"/> 
+<div className="DropdownVT">
+   <Dropdown >
+  <Dropdown.Toggle className="DropName" variant="success" id="dropdown-basic">
+    MY FILTER
+  </Dropdown.Toggle>
+  <Dropdown.Menu >
+      <button className="MyFilterSaved">
+    <Dropdown.Item href="#/action-1">YC-REL1</Dropdown.Item><br/>
+    <Dropdown.Item href="#/action-2">PAS-POR</Dropdown.Item><br/>
+   
+    </button>
+  </Dropdown.Menu>
+</Dropdown>
+  </div>
+
+
+
+  <div className="TextVT">
+    <h2 className="Name">YOUNG CHILD</h2><h6 className="TaskOverview">Task Overview - March 21</h6>
+</div>     
 
 <div className="VTButton">     
 <button className="YC">YOUNG CHILD</button>
@@ -136,11 +153,27 @@ return(
 <button className="Cat">PASSIONATE</button>
 <button className="Cat">BLIND PERSON</button>
 </div>
-
-
-
     </button>
+
+<div>
+  <h2 className="SaveTitle">SAVE OR SHARE YOUR DATA</h2>
+ <input className="NameData"
+        type="text"
+        placeholder="Name my data"  />
+        <button className="SaveData">SAVE MY DATA</button>
+
+<div className="ShareAvatar">
+<button className="SelectAvatar"><Avatar  name="Lana" src={Lana}size="50px" round="25px"/></button>
+            <button className="SelectAvatar"><Avatar name="Lucas" src={Lucas}size="50px" round="25px"/></button> 
+           <button className="SelectAvatar"> <Avatar  name="Rob" src={Rob}size="50px" round="25px"/> </button> 
+          <button className="SelectAvatar">   <Avatar name="Alice" src={Alice}size="50px" round="25px"/> </button>
 </div>
+<button className="ShareData">SHARE MY DATA</button>
+</div>
+
+
+
+
 </div>
 
 
@@ -150,6 +183,12 @@ return(
 
 
 
+
+
+
+
+
+</div>
 
 );
 

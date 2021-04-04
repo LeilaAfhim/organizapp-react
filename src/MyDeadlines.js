@@ -11,35 +11,35 @@ import Deadline from "./images/deadline.svg";
 export default function MyDeadlines(){
     return(
         <div className="MyDeadlines">
-<Scrollbar className="scrollbar" style={{ width: 400, height: 550 }}>
+<Scrollbar className="scrollbar" style={{ width: 450, height: 550 }}>
     <div>
         <button className="card">
              
   <h4>MY DEADLINES</h4>
 
   <button className="tasks">
-      <p><img className="deadline"src={Deadline} width="30px"/>12.05.21<br/>
+      <p><img className="deadline"src={Deadline} width="25px"/>12.05.21<br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
           <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
 <button className="tasks">
-      <p><img className="deadline"src={Deadline} width="30px"/>20.05.21<br/>
+      <p><img className="deadline"src={Deadline} width="25px"/>20.05.21<br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
           <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
   <button className="tasks">
-      <p><img className="deadline"src={Deadline} width="30px"/>5.06.21<br/>
+      <p><img className="deadline"src={Deadline} width="25px"/>5.06.21<br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
           <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
   <button className="tasks">
-      <p><img className="deadline"src={Deadline} width="30px"/>15.06.21<br/>
+      <p><img className="deadline"src={Deadline} width="25px"/>15.06.21<br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
           <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>

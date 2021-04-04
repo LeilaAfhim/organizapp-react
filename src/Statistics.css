@@ -1,11 +1,20 @@
+.StatTitle {
+  margin-bottom: 100px;
+}
+
 .CardMemberStat {
   height: 400px;
   width: 600px;
   margin-top: 30px;
   border-radius: 20px;
-  background-color: #67678b;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
   border: none;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
   margin-left: 300px;
   position: relative;
 }
@@ -103,9 +112,14 @@
   width: 800px;
   margin-top: -400px;
   border-radius: 20px;
-  background-color: #67678b;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
   border: none;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
   margin-left: 1000px;
   display: block;
 }
@@ -188,4 +202,105 @@
   margin: 0;
   margin-left: 150px;
   margin-top: 0px;
+}
+
+.CardScriptTourStat {
+  height: 400px;
+  width: 800px;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
+  border: none;
+  box-shadow: 5px 5px 20px #b8b4af;
+  margin-left: 300px;
+  display: block;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.NameData {
+  margin-left: 1220px;
+  margin-top: 0px;
+  display: block;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  width: 225px;
+}
+
+.SaveData {
+  margin-left: 1480px;
+  margin-top: -40px;
+  display: block;
+  padding: 10px;
+  background-color: #db3d44;
+  box-shadow: 5px 5px 5px #b8b4af;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+}
+
+.SaveData:hover {
+  background-color: #b93037;
+  box-shadow: 5px 5px 15px #b8b4af;
+  cursor: pointer;
+}
+
+.ShareAvatar {
+  margin-left: 1220px;
+  margin-top: 50px;
+}
+
+.SelectAvatar {
+  background: none;
+  border: none;
+}
+
+.SelectAvatar:hover {
+  background: #db3d44;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.ShareData {
+  margin-left: 1480px;
+  margin-top: -50px;
+  display: block;
+  padding: 10px;
+  background-color: #db3d44;
+  box-shadow: 5px 5px 5px #b8b4af;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 200px;
+  width: 200px;
+}
+
+.ShareData:hover {
+  background-color: #b93037;
+  box-shadow: 5px 5px 15px #b8b4af;
+  cursor: pointer;
+}
+
+.SaveTitle {
+  margin-left: 1220px;
+  margin-top: -370px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
 }

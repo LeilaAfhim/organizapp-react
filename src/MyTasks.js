@@ -12,7 +12,7 @@ export default function MyTasks(){
     return(
 
  <div>      
-<Scrollbar className="scrollbar" style={{ width: 400, height: 550 }}>
+<Scrollbar className="scrollbar" style={{ width: 450, height: 550 }}>
     
         <button className="card">
              
@@ -21,35 +21,35 @@ export default function MyTasks(){
   <button className="tasks">
       <p>9:00 <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
-          <Avatar className="options" name="options"  src= {Options} size="30px"/>
+          <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
 <button className="tasks">
       <p>10:00 <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
-          <Avatar className="options" name="options"  src= {Options} size="30px"/>
+          <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
   <button className="tasks">
       <p>11:00 <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
-          <Avatar className="options" name="options"  src= {Options} size="30px"/>
+          <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
   <button className="tasks">
       <p>12:00 <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
-          <Avatar className="options" name="options"  src= {Options} size="30px"/>
+          <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 
   <button className="tasks">
       <p>13:00 <br/>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do. <br/>
-          <Avatar className="options" name="options"  src= {Options} size="30px"/>
+          <Avatar className="options" name="options"  src= {Options} size="25px"/>
       </p>
   </button>
 

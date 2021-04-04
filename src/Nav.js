@@ -17,7 +17,7 @@ export default function Nav(){
         <ul>
             <Link to="/Homepage">
             <li>
-                 <img className="iconSide" src={Home} width="30px" />
+                 <img className="iconSide" src={Home} width="30px"  />
                  <h3>HOME</h3>
             </li>
             </Link>

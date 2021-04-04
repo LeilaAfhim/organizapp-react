@@ -25,13 +25,15 @@ return(
     <Member/>
     <div>
 <h1>TIMELINE</h1>
-<button className="addTask">ADD A TASK</button>
+
 </div>
 
 <div className="Month">
-<h4><Avatar className="ArrowLeft" name="Arrow" src={leftArrow}size="20px"/> March<Avatar className="ArrowRight" name="Arrow"src={rightArrow}size="20px"/> </h4>
-</div>
+  
+<h4 className="March"><Avatar className="ArrowLeft" name="Arrow" src={leftArrow}size="20px"/> March<Avatar className="ArrowRight" name="Arrow"src={rightArrow}size="20px"/> </h4>
 
+</div>
+<button className="addTask">ADD A TASK</button>
 
 <div>
 <ButtonToolbar className="Date" aria-label="Toolbar with button groups">

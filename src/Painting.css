@@ -65,9 +65,14 @@ h1 {
 .scrollbarPaintingTask {
   margin-top: 30px;
   border-radius: 20px;
-  background-color: #67678b;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
   margin-left: 300px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
 }
 
 .SearchInput {
@@ -140,9 +145,14 @@ h1 {
 .scrollbarPaintingID {
   margin-top: 30px;
   border-radius: 20px;
-  background-color: #67678b;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
   margin-left: 300px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
   margin-bottom: 80px;
 }
 

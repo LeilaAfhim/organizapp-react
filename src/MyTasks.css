@@ -29,8 +29,12 @@ h3 {
 
 .options {
   margin-top: 0px;
-  margin-left: 145px;
+  margin-left: 185px;
   margin-bottom: 0px;
+}
+
+.deadline {
+  margin-right: 10px;
 }
 
 .scrollbar {
@@ -38,13 +42,14 @@ h3 {
   border-radius: 20px;
   background-color: #67678b;
   margin-left: 20px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
 }
 
 h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 24px;
+  color: white;
 }
 
 .chatAvatar {

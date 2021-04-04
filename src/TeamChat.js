@@ -13,7 +13,7 @@ import Lucas from "./images/Lucas.png";
 export default function TeamChat(){
     return(
         <div className="TeamChat">
-<Scrollbar className="scrollbar" style={{ width: 400, height: 550 }}>
+<Scrollbar className="scrollbar" style={{ width: 450, height: 550 }}>
     <div>
         <button className="card">
              

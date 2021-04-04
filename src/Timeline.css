@@ -1,5 +1,5 @@
 .addTask {
-  margin-left: 300px;
+  margin-left: 570px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: rgb(241, 229, 212);
@@ -7,9 +7,10 @@
   background-color: #db3d44;
   border: none;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px #ac9c87;
-  margin-top: 10px;
+  box-shadow: 5px 5px 5px #b8b4af;
+  margin-top: 0px;
   margin-bottom: 30px;
+  display: block;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
   background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
   border: none;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
 }
 
 .CardMemberIcon {
@@ -54,7 +55,7 @@ h1 {
 }
 
 .Number {
-  background: #06435c;
+  background: #eca714;
   padding: 10px;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
@@ -68,10 +69,15 @@ h1 {
   width: 1270px;
   height: 450px;
   margin-left: 370px;
-  background-color: #67678b;
+  background-image: linear-gradient(
+    to top,
+    #a7a6cb 0%,
+    #8989ba 52%,
+    #8989ba 100%
+  );
   margin-top: -450px;
   border-radius: 20px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 20px #b8b4af;
 }
 
 .Task {
@@ -93,7 +99,13 @@ h1 {
 
 .Month {
   margin-left: 370px;
-  margin-bottom: 0px;
+  margin-bottom: -65px;
+  margin-top: 100px;
+  display: block;
+}
+
+.March {
+  color: black;
 }
 
 .ArrowRight {
