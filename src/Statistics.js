@@ -99,7 +99,57 @@ return(
 
     </button>
 </div>
+
+
+
+<div>
+    <button className="CardVoiceTourStat">
+   
+  <h3 className="CardTitleVT">VOICE TOUR</h3>
+<Avatar className="FilterVT" name="Filter" src={Filter}size="30px"/> 
+<div className="DropdownVT">
+   <Dropdown >
+  <Dropdown.Toggle className="DropName" variant="success" id="dropdown-basic">
+    MY FILTER
+  </Dropdown.Toggle>
+  <Dropdown.Menu >
+      <button className="MyFilterSaved">
+    <Dropdown.Item href="#/action-1">YC-REL1</Dropdown.Item><br/>
+    <Dropdown.Item href="#/action-2">PAS-POR</Dropdown.Item><br/>
+   
+    </button>
+  </Dropdown.Menu>
+</Dropdown>
+  </div>
+
+
+
+  <div className="TextVT">
+    <h2 className="Name">YOUNG CHILD</h2><h6 className="TaskOverview">Task Overview - March 21</h6>
+</div>     
+
+
+
+<div className="VTButton">     
+<button className="YC">YOUNG CHILD</button>
+<button className="Cat">TEENAGER</button>
+<button className="Cat">PASSIONATE</button>
+<button className="Cat">BLIND PERSON</button>
 </div>
+
+
+
+    </button>
+</div>
+</div>
+
+
+
+
+
+
+
+
 
 );
 

@@ -7,10 +7,11 @@
   border: none;
   box-shadow: 5px 5px 20px #ac9c87;
   margin-left: 300px;
+  position: relative;
 }
 
 .CardTitleMember {
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 110px;
   margin-bottom: 30px;
   font-size: 24px;
@@ -33,7 +34,7 @@
   margin: 10px;
   display: block;
   margin-left: -6px;
-  margin-top: -156px;
+  margin-top: -146px;
   height: 400px;
   width: 100px;
 }
@@ -95,4 +96,96 @@
   color: white;
   margin-bottom: 0;
   margin-top: 0;
+}
+
+.CardVoiceTourStat {
+  height: 400px;
+  width: 800px;
+  margin-top: -400px;
+  border-radius: 20px;
+  background-color: #67678b;
+  border: none;
+  box-shadow: 5px 5px 20px #ac9c87;
+  margin-left: 1000px;
+  display: block;
+}
+
+.FilterVT {
+  margin-top: -65px;
+  margin-left: 160px;
+}
+
+.DropdownVT {
+  position: relative;
+  margin-top: -75px;
+  margin-left: 600px;
+}
+
+.VTButton {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  border: none;
+  border-radius: 20px;
+  margin: 10px;
+  display: block;
+  margin-left: -6px;
+  margin-top: -112px;
+  height: 400px;
+  width: 140px;
+}
+
+.Cat {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background: none;
+  border: none;
+}
+
+.Cat:hover {
+  background: #db3d44;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.YC {
+  width: 140px;
+  margin-top: 60px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+  background: none;
+  border: none;
+}
+
+.YC:hover {
+  background: #db3d44;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.CardTitleVT {
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: white;
+  position: relative;
+}
+
+.TextVT {
+  margin: 0;
+  margin-left: 150px;
+  margin-top: 0px;
 }
