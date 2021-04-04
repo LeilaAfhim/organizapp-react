@@ -6,6 +6,23 @@
   background-color: #67678b;
   border: none;
   box-shadow: 5px 5px 20px #ac9c87;
+  margin-left: 300px;
+}
+
+.CardTitleMember {
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: white;
+  position: relative;
+}
+
+.FilterStat {
+  margin-top: -65px;
+  margin-left: 90px;
 }
 
 .AvatarButton {
@@ -16,7 +33,7 @@
   margin: 10px;
   display: block;
   margin-left: -6px;
-  margin-top: -74px;
+  margin-top: -156px;
   height: 400px;
   width: 100px;
 }
@@ -34,4 +51,48 @@
   text-align: left;
   color: white;
   margin-left: 120px;
+}
+
+.LanaStat {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.DropdownStat {
+  position: relative;
+  margin-top: -75px;
+  margin-left: 390px;
+}
+
+.DropName {
+  box-shadow: none;
+}
+
+.TextStat {
+  margin: 0;
+  margin-left: 100px;
+  margin-top: -90px;
+}
+
+.Name,
+.Role {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.Name {
+  margin-top: 20px;
+}
+.TaskOverview {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 0;
 }

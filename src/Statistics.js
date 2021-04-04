@@ -19,11 +19,16 @@ import Italian from "./images/it.svg";
 import French from "./images/fr.svg";
 
 
+
 import Dropdown from 'react-bootstrap/Dropdown';
 
 
 
+
 export default function Statistics (){
+
+
+
 return(
 <div>
  <Member/>
@@ -44,25 +49,22 @@ return(
       <button className="MyFilterSaved">
     <Dropdown.Item href="#/action-1">YC-REL1</Dropdown.Item><br/>
     <Dropdown.Item href="#/action-2">PAS-POR</Dropdown.Item><br/>
-   
     </button>
   </Dropdown.Menu>
 </Dropdown>
+</div>
+
 
 <div>
     <button className="CardMemberStat">
-        <h3 className="CardTitle">MEMBER</h3>
-
-<div className="optionTasksPainting">
-   <Avatar className="Filter" name="Filter" src={Filter}size="30px"/> 
- <input className="SearchInput"
-        type="text"
-        placeholder="Search"/>
-   <Dropdown className="Dropdown">
+   
+  <h3 className="CardTitleMember">MEMBER</h3>
+<Avatar className="FilterStat" name="Filter" src={Filter}size="30px"/> 
+<div className="DropdownStat">
+   <Dropdown >
   <Dropdown.Toggle className="DropName" variant="success" id="dropdown-basic">
     MY FILTER
   </Dropdown.Toggle>
-
   <Dropdown.Menu >
       <button className="MyFilterSaved">
     <Dropdown.Item href="#/action-1">YC-REL1</Dropdown.Item><br/>
@@ -71,19 +73,25 @@ return(
     </button>
   </Dropdown.Menu>
 </Dropdown>
+  </div>
+
+
+
+<div className="LanaStat">
+  <Avatar className="Lana" name="Lana" src={Lana}size="80px" round="40px"/> <br/>
+  <div className="TextStat">
+    <h2 className="Name">LANA</h2><h3 className="Role">CURATOR</h3><h6 className="TaskOverview">Task Overview - March 21</h6>
+</div>     
 </div>
 
-        <button className="AvatarButton">
+   
+ 
+
+<div className="AvatarButton">     
              <Avatar className="MemberAvatarStat" name="Lana" src={Lana}size="50px" round="25px"/> <br/>
              <Avatar className="MemberAvatarStat" name="Lucas" src={Lucas}size="50px" round="25px"/> <br/>
              <Avatar className="MemberAvatarStat" name="Rob" src={Rob}size="50px" round="25px"/> <br/>
-             <Avatar className="MemberAvatarStat" name="Alice" src={Alice}size="50px" round="25px"/> 
-        </button>
-
-
-<div>
-  <Avatar className="MemberAvatarStat" name="Lana" src={Lana}size="80px" round="40px"/> <br/>
-  <h2>LANA<br/>CURATOR</h2><h6>Tasks Overview - March 21</h6>
+             <Avatar className="MemberAvatarStat" name="Alice" src={Alice}size="50px" round="25px"/>     
 </div>
 
 
@@ -91,10 +99,6 @@ return(
 
     </button>
 </div>
-
-
-</div>
-
 </div>
 
 );
