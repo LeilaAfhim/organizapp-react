@@ -8,6 +8,7 @@ h1 {
 .Chat {
   margin-left: 880px;
   margin-top: -40px;
+  position: fixed;
 }
 
 .PaintingTasks {
@@ -21,6 +22,7 @@ h1 {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   text-align: left;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
 }
 
 .Description {
@@ -56,7 +58,7 @@ h1 {
   background-color: #db3d44;
   border: none;
   border-radius: 10px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  box-shadow: 5px 5px 5px #b8b4af;
   margin-top: 10px;
 }
 
@@ -65,6 +67,19 @@ h1 {
   border-radius: 20px;
   background-color: #67678b;
   margin-left: 300px;
+  box-shadow: 5px 5px 20px #ac9c87;
+}
+
+.SearchInput {
+  margin-left: 150px;
+  margin-top: 52px;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border: none;
+  box-shadow: 5px 5px 5px #b8b4af;
 }
 
 .optionTasksPainting {
@@ -75,23 +90,24 @@ h1 {
 
 .Dropdown {
   padding: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
+  margin-top: -36px;
 }
 
 .DropName {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: white;
-  padding: 10px;
+  padding: 7px;
   background-color: #eca714;
   border: none;
-  border-radius: 10px;
-  box-shadow: 5px 5px 20px #ac9c87;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #b8b4af;
   margin-left: 50px;
 }
 
 .Filter {
-  margin-bottom: -32px;
+  margin-bottom: 0px;
 }
 
 .MyFilterSaved {
@@ -113,4 +129,175 @@ h1 {
 .MyFilterSaved:visited {
   text-decoration: none;
   color: white;
+}
+
+.TitlePaintingID {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 130px;
+  margin-bottom: 0px;
+}
+
+.scrollbarPaintingID {
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #67678b;
+  margin-left: 300px;
+  box-shadow: 5px 5px 20px #ac9c87;
+  margin-bottom: 80px;
+}
+
+.PaintingCardID {
+  height: 640px;
+  width: 1330px;
+  margin: 15px;
+  border-radius: 15px;
+  border: none;
+}
+
+.Title {
+  margin: 0px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: black;
+  display: block;
+}
+
+h5 {
+  text-align: left;
+  font-size: 24px;
+  margin-left: 10px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Edit {
+  display: block;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  border: none;
+  box-shadow: 5px 5px 5px #b8b4af;
+  background-color: #db3d44;
+  color: white;
+}
+.PictureCard {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 0px;
+  box-shadow: 5px 5px 5px #b8b4af;
+}
+
+.Text {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: black;
+  margin-left: 10px;
+  letter-spacing: 1.3px;
+}
+
+.Picture {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.DescriptionCard {
+  width: 855px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  box-shadow: 5px 5px 5px #b8b4af;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.MapCard {
+  width: 240px;
+  height: 385px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  box-shadow: 5px 5px 5px #b8b4af;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 260px;
+  margin-top: -395px;
+}
+
+.PictureMap {
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.ScriptCard {
+  width: 350px;
+  height: 385px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  box-shadow: 5px 5px 5px #b8b4af;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 515px;
+  margin-top: -550px;
+}
+
+.ButtonScript {
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.ButtonDoc {
+  border: none;
+}
+
+.ButtonDoc:hover {
+  background: #db3d44;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.VoiceCard {
+  width: 400px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #dad1e2 100%);
+  background-blend-mode: normal, color-burn;
+  box-shadow: 5px 5px 5px #b8b4af;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  display: block;
+  margin-left: 880px;
+  margin-top: -395px;
+}
+
+.ButtonVoice {
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
 }
